@@ -1094,6 +1094,7 @@ namespace llarp
               {
                 ctx->SendPacketToRemote(pkt.ConstBuffer(), service::ProtocolType::Exit);
                 Router()->TriggerPump();
+                llarp::isConnected = true;
                 return;
               }
               LogWarn("cannot ensure path to exit ", addr, " so we drop some packets");

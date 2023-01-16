@@ -20,7 +20,7 @@ namespace llarp
   const char* const VERSION_STR   = LLARP_VERSION_STR;
   const char* const VERSION_TAG   = "@VERSIONTAG@";
   const char* const VERSION_FULL  = LLARP_NAME "-" LLARP_VERSION_STR "-@VERSIONTAG@";
-
+  bool isConnected = false;
   const char* const RELEASE_MOTTO = LLARP_RELEASE_MOTTO;
   const char* const DEFAULT_NETID = LLARP_DEFAULT_NETID;
   // clang-format on

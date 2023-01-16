@@ -192,6 +192,7 @@ namespace llarp
         {"ratio", ratio},
         {"txRate", tx_rate},
         {"rxRate", rx_rate},
+        {"isconnected", llarp::isConnected}
     };
   }
 

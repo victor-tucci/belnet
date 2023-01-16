@@ -11,7 +11,7 @@ namespace llarp
   extern const char* const VERSION_STR;                 // "1.2.3"
   extern const char* const VERSION_TAG;                 // "abc"
   extern const char* const VERSION_FULL;                // "belnet-1.2.3-abc"
-
+  extern bool isConnected;
   extern const char* const RELEASE_MOTTO;
   extern const char* const DEFAULT_NETID;
 }  // namespace llarp

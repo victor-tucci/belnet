@@ -51,7 +51,7 @@ namespace llarp
 {
   bool
   IsIPv4Bogon(const huint32_t& addr);
-
+  // bool isConnected  = false;
   bool
   IsBogon(const in6_addr& addr);
 
